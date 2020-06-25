@@ -122,7 +122,48 @@
           <hr />
         </div>
         <div class="col-md-10">
-          Form goes here
+            <form>
+                <div>
+                    <label for="firstName">First Name</label>
+                    <div>
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name" />
+                    </div>
+                </div>
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <div>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name" />
+                    </div>                  
+                </div>
+                <div>
+                    <label for="areaCode">Contact Tel.</label>
+                    <div>
+                        <input type="tel" id="areaCode" name="areaCode" placeholder="Area code" />
+                    </div>
+                    <div>
+                        <input type="tel" name="telNum" placeholder="Tel. number" />
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Email" />
+                May we contact you?
+                    </div>
+                    <div>
+                        <input type="radio" id="contactYes" name="contactRadios" value="yes" />
+                    </div>
+                </div>
+                
+                
+                
+                <label for="contactYes">Yes</label>
+                <input type="radio" id="contactNo" name="contactRadios" value="no" />
+                <label for="contactNo">No</label>
+                <label for="feedback">Your Feedback</label>
+                <textarea id="feedback" name="feedback" rows="8"></textarea>
+                <button type="submit">Send Feedback</button>
+            </form>
         </div>
       </div>
     </div>
